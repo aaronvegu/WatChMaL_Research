@@ -1,6 +1,14 @@
 import h5py
+import argparse
 
-with h5py.File('./H5/IWCD_gamma.h5', 'r') as f:
+parser = argparse.ArgumentParser(description='Reads H5 datafiles.')
+parser.add_argument('path', type=str, help='path to the H5 file to read')
+
+args = parser.parse_args()
+
+h5_path = args.path
+
+with h5py.File(h5_path, 'r') as f:
     # variable to control read continuity
     control = 'c'
     while control != 'x':
