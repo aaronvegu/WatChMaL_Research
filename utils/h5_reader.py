@@ -32,5 +32,3 @@ with h5py.File(h5_path, 'r') as f:
 
         # ask if continue or stop
         control = input("Want to read another dataset? Enter 'x' to quit, click ENTER to continue: ")
-
-    
