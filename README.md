@@ -1,5 +1,5 @@
 # WatChMaL_Research
-Data analysis notebook on the properties and behavior of gamma, e, pion and muon flavors from the Hyper Kamiokande and WatChMaL neutrino detection project. As part of the doctoral thesis of a researcher within the [Center for Data Analysis and Supercomputing (CADS)](https://cgsait.udg.mx/cads) of the University of Guadalajara.
+Data analysis notebook on the properties and behavior of electron, pion, muon neutrino particles and gamma events from the Hyper Kamiokande and WatChMaL neutrino detection project. As part of the doctoral thesis of a researcher within the [Center for Data Analysis and Supercomputing (CADS)](https://cgsait.udg.mx/cads) of the University of Guadalajara.
 
 With emphasis on understanding and analyzing the properties that differentiate the behavior between neutrino gamma and electron flavors, which are usually very similar, in order to more easily discriminate this pair of neutrino flavors.
 
